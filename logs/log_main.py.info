@@ -1,0 +1,219 @@
+INFO:train:Train agent on {'racecar-v0'} env
+INFO:train:Doing 1000000.0 timesteps
+INFO:train:Start training at Tue, 08 Dec 2020 16:34:25 GMT
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -1782.353
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -1782.353
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -1782.353
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -1782.353
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -1782.353
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -296.287
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -303.033
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -290.361
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -289.804
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -297.030
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -297.266
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -297.320
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -299.303
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -1527.458
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -247.856
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -243.834
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -250.090
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -272.304
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -261.562
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -305.983
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -305.461
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -129.124
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -138.089
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -295.165
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -295.411
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -295.769
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -295.808
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -296.063
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -295.840
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -295.726
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -296.072
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -295.514
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -295.791
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -295.676
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -295.989
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -296.402
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -299.780
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -297.845
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -299.250
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -299.763
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -300.071
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -300.179
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -300.015
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -298.544
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -288.771
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -284.773
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -306.222
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -303.085
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -297.082
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -297.126
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -293.477
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -291.315
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -297.771
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -298.831
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -299.808
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -299.743
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -299.756
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -300.334
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -300.077
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -300.105
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -300.760
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -300.433
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -298.013
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -294.926
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -296.463
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -292.056
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -284.733
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -299.440
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -292.695
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -293.850
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -291.543
+INFO:train:---------------------------------------
+INFO:train:---------------------------------------
+INFO:train:Evaluation over 10 episodes: -290.879
+INFO:train:---------------------------------------
