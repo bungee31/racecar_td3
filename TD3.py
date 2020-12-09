@@ -8,8 +8,6 @@ import torch.nn.functional as F
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Implementation of Twin Delayed Deep Deterministic Policy Gradients (TD3)
-# Paper: https://arxiv.org/abs/1802.09477
-
 
 class Actor(nn.Module):
 	def __init__(self, state_dim, action_dim, max_action):
@@ -80,11 +78,11 @@ class TD3(object):
 
 		self.actor = Actor(state_dim, action_dim, max_action).to(device)
 		self.actor_target = copy.deepcopy(self.actor)
-		self.actor_optimizer = torch.optim.Adam(self.actor.parameters(), lr=3e-4)
+		self.actor_optimizer = torch.optim.Adam(self.actor.parameters(), lr=1e-3)
 
 		self.critic = Critic(state_dim, action_dim).to(device)
 		self.critic_target = copy.deepcopy(self.critic)
-		self.critic_optimizer = torch.optim.Adam(self.critic.parameters(), lr=3e-4)
+		self.critic_optimizer = torch.optim.Adam(self.critic.parameters(), lr=1e-3)
 
 		self.max_action = max_action
 		self.discount = discount

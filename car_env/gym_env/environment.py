@@ -64,7 +64,7 @@ class RacecarEnv(gym.Env):
         # Example for using image as input:
         # self.observation_space = spaces.Box(low=0, high=255, shape=(1,), dtype=np.uint8)
         self._max_episode_steps = 250
-        self.observation_space = spaces.Box(low=0.0, high=255.0, shape=(33, ), dtype=np.float32)
+        self.observation_space = spaces.Box(low=-255.0, high=255.0, shape=(35, ), dtype=np.float32)
         self.action_space = spaces.Box(low=np.array([0.0, -3.0]), high=np.array([1.0, 3.0]), dtype=np.float32)
 
         # Defining the maximum distance to goal (used to normalize)
@@ -106,6 +106,8 @@ class RacecarEnv(gym.Env):
         # act = action[0]
         self.obs.extend([dist / self.maxgoaldist, phi / pi, sign])
         # self.obs.extend(act)
+        self.obs.append(dist)
+        self.obs.append(phi)
 
         # Incrementing step counter
         self.current_step += 1
@@ -155,6 +157,8 @@ class RacecarEnv(gym.Env):
         self.obs = list(1 - np.array(sensor) / self.maxgoaldist)
         # act = [0, 0]
         self.obs.extend([dist / self.maxgoaldist, phi / pi, sign])
+        self.obs.append(dist)
+        self.obs.append(phi)
         # self.obs.extend(act)
 
         return np.array(self.obs).reshape(1, -1)

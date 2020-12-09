@@ -1,0 +1,184 @@
+INFO:train:Evaluation over 10 episodes: -1517.271
+INFO:train:Train agent on {'racecar-v0'} env
+INFO:train:Doing 100000000.0 timesteps
+INFO:train:Start training at Wed, 09 Dec 2020 22:21:44 GMT
+INFO:train:Current timestep: 4999, last reward: -1504.2569044887173, mean reward: -1498.3734430841653
+INFO:train:Evaluation over 10 episodes: -1517.271
+INFO:train:Current timestep: 9999, last reward: -1531.2093180252275, mean reward: -1515.842659266326
+INFO:train:Evaluation over 10 episodes: -1517.271
+INFO:train:Current timestep: 14999, last reward: -1514.6616196765406, mean reward: -1514.0711164509557
+INFO:train:Evaluation over 10 episodes: -1517.271
+INFO:train:Current timestep: 19999, last reward: -1517.7318465969704, mean reward: -1515.4021113925921
+INFO:train:Evaluation over 10 episodes: -1517.271
+INFO:train:Current timestep: 24999, last reward: -1508.2569589070552, mean reward: -1476.8830248033194
+INFO:train:Evaluation over 10 episodes: -1517.271
+INFO:train:Current timestep: 29999, last reward: -2385.6391305696834, mean reward: -1638.4962854689848
+INFO:train:Evaluation over 10 episodes: -77.983
+INFO:train:Current timestep: 34999, last reward: -2734.6057841447455, mean reward: -2454.142079285011
+INFO:train:Evaluation over 10 episodes: -77.983
+INFO:train:Current timestep: 39999, last reward: -2416.958044579931, mean reward: -2207.7253542810927
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 44999, last reward: -1518.7084009353312, mean reward: -1607.4618735353395
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 49999, last reward: -1519.5447073236521, mean reward: -1529.5618772655966
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 54999, last reward: -1527.09822876801, mean reward: -1675.283668306675
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 59999, last reward: -2795.459157310852, mean reward: -1788.5756643128698
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 64999, last reward: -1518.3995895149549, mean reward: -1592.5443830485888
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 69999, last reward: -1534.958225253862, mean reward: -1552.9708469924628
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 74999, last reward: -1503.6603678693698, mean reward: -1549.2313177091662
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 79999, last reward: 0, mean reward: 0.0
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 84999, last reward: -1510.9565357703227, mean reward: -1539.5052031388364
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 89999, last reward: -1503.6653614256836, mean reward: -1528.9183466371478
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 94999, last reward: -1826.4506427952685, mean reward: -1643.4834950647644
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 99999, last reward: -1534.6875600003145, mean reward: -1525.8320646631191
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 104999, last reward: -1503.66090490166, mean reward: -1510.0973075075256
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 109999, last reward: -1534.1606384253132, mean reward: -1563.124526085333
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 114999, last reward: -1503.2950080664525, mean reward: -1516.7895922640507
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 119999, last reward: -1511.2522855001268, mean reward: -1536.0668594543831
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 124999, last reward: -1511.3322252422183, mean reward: -1511.1349096415568
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 129999, last reward: -1503.6717657265124, mean reward: -1542.2117134452144
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 134999, last reward: -1526.6440886696796, mean reward: -1526.8692604851267
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 139999, last reward: 0, mean reward: 0.0
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 144999, last reward: -1588.7593298420702, mean reward: -1603.2380410234716
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 149999, last reward: 0, mean reward: 0.0
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 154999, last reward: 0, mean reward: 0.0
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 159999, last reward: -1587.7442444912665, mean reward: -2379.209536661527
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 164999, last reward: -1511.6392931213866, mean reward: -1596.7646057434276
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 169999, last reward: -1619.9101970191082, mean reward: -1527.8248158549259
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 174999, last reward: -1503.303992034006, mean reward: -1512.2531493113881
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 179999, last reward: -1503.2949949730553, mean reward: -1509.4184293098258
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 184999, last reward: -1510.9721744443223, mean reward: -1506.316427379019
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 189999, last reward: -1534.157738534099, mean reward: -1531.4240523522026
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 194999, last reward: -1511.2613690965197, mean reward: -1539.3489451117355
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 199999, last reward: -1512.0039080110723, mean reward: -1572.4317682985868
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 204999, last reward: -1603.1529815870624, mean reward: -1505.0636286272513
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 209999, last reward: -1503.6652739899762, mean reward: -1544.57744650252
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 214999, last reward: -1664.1765259023775, mean reward: -1519.6907816911416
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 219999, last reward: -1503.6685676497725, mean reward: -1556.8046896272813
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 224999, last reward: -1557.9831346707704, mean reward: -1565.77691452565
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 229999, last reward: -1526.4796521301353, mean reward: -1983.2373377922868
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 234999, last reward: 0, mean reward: 0.0
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 239999, last reward: 0, mean reward: 0.0
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 244999, last reward: -1503.2947654766735, mean reward: -1579.1415720743973
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 249999, last reward: -1715.1662789188024, mean reward: -1510.613086811535
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 254999, last reward: -2249.2250242899922, mean reward: -1604.8383900172012
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 259999, last reward: -1840.2447916040483, mean reward: -1544.6642373067098
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 264999, last reward: -1518.9363483701213, mean reward: -1533.4541085799574
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 269999, last reward: -1503.6797516246772, mean reward: -1561.1921814459208
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 274999, last reward: -1503.2931518829046, mean reward: -1512.100776328161
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 279999, last reward: -1504.0233881676493, mean reward: -1513.768364477729
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 284999, last reward: -1510.9180259548332, mean reward: -1525.0056471201149
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 289999, last reward: -1511.9166918343944, mean reward: -1523.4062788198637
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 294999, last reward: -2317.892260781568, mean reward: -1602.3183027000557
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Evaluation over 10 episodes: -1526.356
+INFO:train:Train agent on {'racecar-v0'} env
+INFO:train:Doing 100000000.0 timesteps
+INFO:train:Start training at Wed, 09 Dec 2020 23:51:14 GMT
+INFO:train:Current timestep: 4999, last reward: -1512.1674804046638, mean reward: -1511.7156995259213
+INFO:train:Evaluation over 10 episodes: -1526.356
+INFO:train:Current timestep: 299999, last reward: -1659.308840947086, mean reward: -1528.6322197181585
+INFO:train:Current timestep: 9999, last reward: -1512.7617384242512, mean reward: -1530.810134050941
+INFO:train:Evaluation over 10 episodes: -1526.356
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 14999, last reward: -1527.021902022448, mean reward: -1531.9766647112647
+INFO:train:Evaluation over 10 episodes: -1526.356
+INFO:train:Current timestep: 19999, last reward: -1538.0614560125152, mean reward: -1527.4931367214542
+INFO:train:Evaluation over 10 episodes: -1526.356
+INFO:train:Current timestep: 304999, last reward: -1542.6762573228095, mean reward: -1513.2270202472682
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Current timestep: 24999, last reward: -1540.3428709166724, mean reward: -1533.0824291937315
+INFO:train:Evaluation over 10 episodes: -1526.356
+INFO:train:Current timestep: 309999, last reward: 0, mean reward: 0.0
+INFO:train:Current timestep: 29999, last reward: -1555.8754284326565, mean reward: -1706.5524433857404
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 314999, last reward: -1503.6661119292276, mean reward: -1589.8994100782918
+INFO:train:Current timestep: 34999, last reward: -1700.7115443599673, mean reward: -2044.8767397883646
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 319999, last reward: -1519.224492610357, mean reward: -1636.2597586829304
+INFO:train:Current timestep: 39999, last reward: -1633.469678008898, mean reward: -2155.272067276779
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 324999, last reward: -1518.5956621021523, mean reward: -1514.749324587453
+INFO:train:Current timestep: 44999, last reward: -1530.9404252660156, mean reward: -2171.1173436320682
+INFO:train:Evaluation over 10 episodes: -86.596
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 49999, last reward: -1694.0227531548594, mean reward: -1517.329706877374
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 54999, last reward: -1623.545741645191, mean reward: -2185.015375684762
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 59999, last reward: -1677.48325265319, mean reward: -1785.5998156302824
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 64999, last reward: -5872.266554089173, mean reward: -5872.266554089173
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 69999, last reward: -1570.943653700373, mean reward: -1971.9539881992064
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 74999, last reward: -1569.3834413089774, mean reward: -3076.122481392469
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 79999, last reward: -1916.2570145167874, mean reward: -3061.846187796317
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 84999, last reward: -1974.5767015146566, mean reward: -1811.9314280566814
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 89999, last reward: -4265.747117566108, mean reward: -4265.747117566108
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 94999, last reward: 0, mean reward: 0.0
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 99999, last reward: -8613.670132974943, mean reward: -8613.670132974943
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 104999, last reward: -1570.1376546174133, mean reward: -1874.5838732033808
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 109999, last reward: -1609.8851148710346, mean reward: -1934.0255675708443
+INFO:train:Evaluation over 10 episodes: -145.458
+INFO:train:Current timestep: 114999, last reward: -1557.2298281648068, mean reward: -2424.7113352499937
+INFO:train:Evaluation over 10 episodes: -145.458

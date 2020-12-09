@@ -7,14 +7,13 @@ import os
 import gym_env
 import utils
 import TD3
-import OurDDPG
 import DDPG
 import time
 
 import logging
 
 # Create logger
-logging.basicConfig(filename=f'logs/log2_{os.path.basename(__file__)}.info')
+logging.basicConfig(filename=f'logs/log6_{os.path.basename(__file__)}.info')
 logger = logging.getLogger('train')
 logger.setLevel(logging.INFO)
 
@@ -45,14 +44,14 @@ def eval_policy(policy, env_name, seed, eval_episodes=10):
 if __name__ == "__main__":
 	
 	parser = argparse.ArgumentParser()
-	parser.add_argument("--policy", default="TD3")                  # Policy name (TD3, DDPG or OurDDPG)
+	parser.add_argument("--policy", default="TD3")                  # Policy name (TD3, DDPG)
 	parser.add_argument("--env", default="racecar-v0")          # OpenAI gym environment name
 	parser.add_argument("--seed", default=0, type=int)              # Sets Gym, PyTorch and Numpy seeds
 	parser.add_argument("--start_timesteps", default=25e3, type=int)# Time steps initial random policy is used
 	parser.add_argument("--eval_freq", default=5e3, type=int)       # How often (time steps) we evaluate
-	parser.add_argument("--max_timesteps", default=1e6, type=int)   # Max time steps to run environment
+	parser.add_argument("--max_timesteps", default=1e8, type=int)   # Max time steps to run environment
 	parser.add_argument("--expl_noise", default=0.1)                # Std of Gaussian exploration noise
-	parser.add_argument("--batch_size", default=256, type=int)      # Batch size for both actor and critic
+	parser.add_argument("--batch_size", default=100, type=int)      # Batch size for both actor and critic
 	parser.add_argument("--discount", default=0.99)                 # Discount factor
 	parser.add_argument("--tau", default=0.005)                     # Target network update rate
 	parser.add_argument("--policy_noise", default=0.2)              # Noise added to target policy during critic update
@@ -99,8 +98,6 @@ if __name__ == "__main__":
 		kwargs["noise_clip"] = args.noise_clip * max_action
 		kwargs["policy_freq"] = args.policy_freq
 		policy = TD3.TD3(**kwargs)
-	elif args.policy == "OurDDPG":
-		policy = OurDDPG.DDPG(**kwargs)
 	elif args.policy == "DDPG":
 		policy = DDPG.DDPG(**kwargs)
 
@@ -123,7 +120,7 @@ if __name__ == "__main__":
 	logger.info('Doing {} timesteps'.format(args.max_timesteps))
 	logger.info('Start training at {}'.format(time.strftime('%a, %d %b %Y %H:%M:%S GMT', time.localtime())))
 
-	temp_rewards = []
+	temp_rewards = [0]
 	for t in range(int(args.max_timesteps)):
 		
 		episode_timesteps += 1
@@ -163,6 +160,8 @@ if __name__ == "__main__":
 
 		# Evaluate episode
 		if (t + 1) % args.eval_freq == 0:
+			if len(temp_rewards) == 0:
+				temp_rewards.append(0)
 			logger.info("Current timestep: {}, last reward: {}, "
                         "mean reward: {}".format(t,
 												temp_rewards[-1],
@@ -170,4 +169,4 @@ if __name__ == "__main__":
 			evaluations.append(eval_policy(policy, args.env, args.seed))
 			temp_rewards = []
 			np.save(f"./results/{file_name}", evaluations)
-			if args.save_model: policy.save(f"./models/{file_name}")
+			policy.save(f"./models/{file_name}")

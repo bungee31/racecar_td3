@@ -1,0 +1,55 @@
+INFO:train:Evaluation over 10 episodes: -1530.884
+INFO:train:Train agent on {'racecar-v0'} env
+INFO:train:Doing 100000000.0 timesteps
+INFO:train:Start training at Wed, 09 Dec 2020 19:57:50 GMT
+INFO:train:Current timestep: 4999, last reward: -1562.9498174068376, mean reward: -1545.2954671642235
+INFO:train:Evaluation over 10 episodes: -1530.884
+INFO:train:Current timestep: 9999, last reward: -1557.680251725331, mean reward: -1558.6667050013766
+INFO:train:Evaluation over 10 episodes: -1530.884
+INFO:train:Current timestep: 14999, last reward: -1572.7587106532671, mean reward: -1561.311988481182
+INFO:train:Evaluation over 10 episodes: -1530.884
+INFO:train:Current timestep: 19999, last reward: -1518.1318907270102, mean reward: -1560.5284207086142
+INFO:train:Evaluation over 10 episodes: -1530.884
+INFO:train:Current timestep: 24999, last reward: -1624.208480420184, mean reward: -1566.2962773422075
+INFO:train:Evaluation over 10 episodes: -1530.884
+INFO:train:Current timestep: 29999, last reward: -1511.1880936446546, mean reward: -1628.9651042484018
+INFO:train:Evaluation over 10 episodes: -296.287
+INFO:train:Current timestep: 34999, last reward: -1645.8213011996736, mean reward: -4928.5155686867165
+INFO:train:Evaluation over 10 episodes: -296.287
+INFO:train:Current timestep: 39999, last reward: -1938.423692664057, mean reward: -2237.6178852715425
+INFO:train:Evaluation over 10 episodes: -1881.612
+INFO:train:Train agent on {'racecar-v0'} env
+INFO:train:Doing 100000000.0 timesteps
+INFO:train:Start training at Wed, 09 Dec 2020 20:22:16 GMT
+INFO:train:Current timestep: 4999, last reward: -2793.1019340245857, mean reward: -2238.9619142125644
+INFO:train:Evaluation over 10 episodes: -1881.612
+INFO:train:Current timestep: 9999, last reward: -1879.562392474726, mean reward: -2209.313760457896
+INFO:train:Evaluation over 10 episodes: -1881.612
+INFO:train:Current timestep: 14999, last reward: -2845.602356708083, mean reward: -2346.527414319076
+INFO:train:Evaluation over 10 episodes: -1881.612
+INFO:train:Current timestep: 19999, last reward: -1934.6922066797288, mean reward: -2236.833366824343
+INFO:train:Evaluation over 10 episodes: -1881.612
+INFO:train:Current timestep: 24999, last reward: -1772.3765438974426, mean reward: -2206.831852513222
+INFO:train:Evaluation over 10 episodes: -1881.612
+INFO:train:Current timestep: 29999, last reward: -2000.4653717636245, mean reward: -2807.47020051463
+INFO:train:Evaluation over 10 episodes: -3740.648
+INFO:train:Current timestep: 34999, last reward: -9674.407245109382, mean reward: -2638.513396640977
+INFO:train:Evaluation over 10 episodes: -3472.925
+INFO:train:Evaluation over 10 episodes: -1525.000
+INFO:train:Train agent on {'racecar-v0'} env
+INFO:train:Doing 100000000.0 timesteps
+INFO:train:Start training at Wed, 09 Dec 2020 20:32:55 GMT
+INFO:train:Current timestep: 4999, last reward: -1508, mean reward: -1475.4567901234568
+INFO:train:Evaluation over 10 episodes: -1525.000
+INFO:train:Current timestep: 9999, last reward: -1510, mean reward: -1495.81
+INFO:train:Evaluation over 10 episodes: -1525.000
+INFO:train:Current timestep: 14999, last reward: -1514, mean reward: -1491.840425531915
+INFO:train:Evaluation over 10 episodes: -1525.000
+INFO:train:Current timestep: 19999, last reward: -1495, mean reward: -1495.5591397849462
+INFO:train:Evaluation over 10 episodes: -1525.000
+INFO:train:Current timestep: 24999, last reward: -1485, mean reward: -1491.55421686747
+INFO:train:Evaluation over 10 episodes: -1525.000
+INFO:train:Current timestep: 29999, last reward: -1502, mean reward: -1505.0
+INFO:train:Evaluation over 10 episodes: 0.000
+INFO:train:Current timestep: 34999, last reward: -1505, mean reward: -1505.0
+INFO:train:Evaluation over 10 episodes: 0.000
