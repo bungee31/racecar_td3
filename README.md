@@ -22,6 +22,9 @@ TD3 works in a very similar way, but the main differences are that the critic co
 Then, instead of backpropagating the weights every time the policy is trained, TD3 uses a delayed policy in which we only update the wrights and the targets with specific frequency. 
 Clipped DDQN is used instead of DDQN which was used in DDPG. This means that when selecting an action during training, a clipped Gaussian noise is added to the action to add more randomization. 
 
+‘‘‘
+python main.py
+‘‘‘
 
 
 
