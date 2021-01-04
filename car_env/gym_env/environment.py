@@ -65,7 +65,7 @@ class RacecarEnv(gym.Env):
         # self.observation_space = spaces.Box(low=0, high=255, shape=(1,), dtype=np.uint8)
         self._max_episode_steps = 250
         self.observation_space = spaces.Box(low=-255.0, high=255.0, shape=(35, ), dtype=np.float32)
-        self.action_space = spaces.Box(low=np.array([0.0, -3.0]), high=np.array([1.0, 3.0]), dtype=np.float32)
+        self.action_space = spaces.Box(low=np.array([0.0, -1.0]), high=np.array([1.0, 1.0]), dtype=np.float32)
 
         # Defining the maximum distance to goal (used to normalize)
         self.maxgoaldist = 5
